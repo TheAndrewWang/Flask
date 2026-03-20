@@ -7,3 +7,5 @@ u is the velocity of the fluid. The greek letter ρ is for the density. The norm
 	It is easy to think of D⃗ u/Dt as a point in space, and ask how much the quantity is changing for the particle who is at a position as a function of time. You use the chain rule, and the first term is how fast the quantity is changing at a fixed point in space, and the second term is correctoring for how much of that change is just due to differences in the fluid flowing past. This means that even when the Lagrangian derivative is zero, the Eulerian derivative can be anything, depending on the velocity of the fluid.
 
 	Another key idea is that fluids are incompressible (pretty much). We measure how fast the volume is changing by integrating the normal component of its velocity around the boundary. d/dt volume(Ω) =∫ ∫∂Ω⃗ u · ˆn, and because it’s incompressible, the change in volume = 0. Using the Fundamental Theorem of Calculus, you get ∫ ∫ ∫Ω∇ ·⃗ u = 0, and so ∇ ·⃗ u = 0.
+
+source: Fluid Simulation for Computer Graphics by Robert Bridson
